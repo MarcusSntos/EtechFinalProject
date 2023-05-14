@@ -3,13 +3,11 @@
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: transparent;
+    background-color: whitesmoke !important;
     padding: 10px 100px;
   }
 
-  .navbar-custom {
-    background-color: blueviolet;
-  }
+  
 
   body {
     height: 100%;
