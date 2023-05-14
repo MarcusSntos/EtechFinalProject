@@ -4,8 +4,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: transparent;
-    padding: 10px 20px;
-    box-shadow: 0px 2px 4px #8c52ff;
+    padding: 10px 100px;
+  }
+
+  .navbar-custom {
+    background-color: blueviolet;
   }
 
   body {
@@ -25,9 +28,15 @@
   position: relative;
   top: 300px;
   left: 30px;
-  font-size: 30px;
+  font-size: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
   }
 
-  h1 {
-    word-wrap: break-all;
+.badge{ 
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-size: 20px;
+    background-color: rgba(61, 37, 75, 0.25);
 }
