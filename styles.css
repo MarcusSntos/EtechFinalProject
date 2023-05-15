@@ -1,14 +1,5 @@
-.navbar {
-    position: fixed;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: whitesmoke !important;
-    padding: 10px 100px;
-    transition: background-color 0.3s ease;
-  }
 
-  
+
   body {
     background-image: url("Images/2.png");
     background-size: cover;
@@ -43,7 +34,7 @@
 
 @font-face {
   font-family: "pencilized";
-  src: url(Font\Pencilized Demo.ttf;)
+  src: url(Font\PencilizedDemo.ttf;)
 }
 
 
@@ -51,9 +42,66 @@
   overflow: hidden;
   max-height: 100px;
   transition: max-height 0.5 ease;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url();
+  background-position: center;
+  background-size: cover;
 }
 
-.card-body {
-  padding: 15px;
+
+a {
+  font-weight: 400;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-decoration: none;
+  cursor: pointer;
 }
+
+
+.MainNav {
+  background-color: rgb(35, 2, 48,0.5);
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "pencilized";
+  padding: 13px 35px;
+  display: flex;
+  transition: .5s ease-in-out;
+  border-radius: 30px;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+ color: rgb(0, 0, 0);
+ background-color: rgb(255, 255, 255);
+ border-radius: 30px; 
+ box-shadow: 0 5px #555555;
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link:active {
+ border-radius: 30px; 
+ transform: translateY(4px);
+ box-shadow: 0 5px #555555;
+}
+
+
+.LogoNav {
+ height: 80px;
+ width: 150px;
+}
+
+
 
