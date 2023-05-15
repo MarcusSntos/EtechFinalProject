@@ -2,6 +2,7 @@
 
   body {
     background-image: url("Images/2.png");
+    background-color: rgba(0,0,0,0.5);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
