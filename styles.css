@@ -5,13 +5,9 @@
     transform: translate(-50%, -50%);
     background-color: whitesmoke !important;
     padding: 10px 100px;
+    transition: background-color 0.3s ease;
   }
 
-  
-
-  body {
-    height: 100%;
-  }
   
   body {
     background-image: url("Images/2.png");
@@ -19,6 +15,7 @@
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
+    height: 100%;
   }
  
  h1 {
@@ -38,3 +35,25 @@
     font-size: 20px;
     background-color: rgba(61, 37, 75, 0.25);
 }
+
+.navbar-brand {
+  color: blueviolet;
+  font-family: "pencilized";
+}
+
+@font-face {
+  font-family: "pencilized";
+  src: url(Font\Pencilized Demo.ttf;)
+}
+
+
+.card {
+  overflow: hidden;
+  max-height: 100px;
+  transition: max-height 0.5 ease;
+}
+
+.card-body {
+  padding: 15px;
+}
+
