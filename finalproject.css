@@ -57,7 +57,7 @@
   }
 
   body {
-    background-image: url("Images/4.png");
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("Images/4.png");
     background-color: rgba(0,0,0,0.5);
     background-size: cover;
     background-repeat: no-repeat;
