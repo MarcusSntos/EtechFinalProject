@@ -2,7 +2,6 @@
     background-color: rgb(35, 2, 48,0.5);
   }
   
-  
   .navbar .navbar-nav .nav-item .nav-link {
     color: rgb(255, 255, 255);
     font-size: 18px;
@@ -53,14 +52,19 @@
     min-height: 100vh;
     height: 100%;
   }
-
+  
+  h1{
+    color: rgba(143, 182, 240, 0.644);
+    font-size: 80px;
+   }
+   
   .carousel-inner {
     height: 400px;
     position: relative;
     width: 800px;
     display: block;
     margin: 50px auto;
-    border: 2px solid black;     
+        
   }
   
   .carousel-item {
